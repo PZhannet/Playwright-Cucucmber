@@ -1,0 +1,22 @@
+{
+  "name": "playwright-js-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --publish||true",
+    "posttest": "npx node helper/report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.38.0",
+    "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^16.3.1",
+    "multiple-cucumber-html-reporter": "^3.4.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.5.1"
+  }
+}
